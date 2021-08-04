@@ -1,0 +1,125 @@
+{
+    "@odata.context": "https://was-p.bcnet.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata$metadata#ExpectativasMercadoInstituicoes(Instituicao,Indicador,IndicadorDetalhe,DataReferencia)",
+    "value": [
+        {
+            "Instituicao": 98,
+            "Indicador": "Balança Comercial",
+            "IndicadorDetalhe": "Importações",
+            "DataReferencia": "2013-01-01"
+        },
+        {
+            "Instituicao": 250,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2014-01-01"
+        },
+        {
+            "Instituicao": 250,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2014-01-01"
+        },
+        {
+            "Instituicao": 250,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2014-01-01"
+        },
+        {
+            "Instituicao": 250,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2014-01-01"
+        },
+        {
+            "Instituicao": 250,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2014-01-01"
+        },
+        {
+            "Instituicao": 102,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2015-01-01"
+        },
+        {
+            "Instituicao": 102,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2016-01-01"
+        },
+        {
+            "Instituicao": 102,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2015-01-01"
+        },
+        {
+            "Instituicao": 102,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2016-01-01"
+        },
+        {
+            "Instituicao": 102,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2015-01-01"
+        },
+        {
+            "Instituicao": 102,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2016-01-01"
+        },
+        {
+            "Instituicao": 102,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2015-01-01"
+        },
+        {
+            "Instituicao": 102,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2016-01-01"
+        },
+        {
+            "Instituicao": 102,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2015-01-01"
+        },
+        {
+            "Instituicao": 102,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2016-01-01"
+        },
+        {
+            "Instituicao": 102,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2015-01-01"
+        },
+        {
+            "Instituicao": 102,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2016-01-01"
+        },
+        {
+            "Instituicao": 30350,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2013-01-01"
+        },
+        {
+            "Instituicao": 30350,
+            "Indicador": "Balanço de Pagamentos",
+            "IndicadorDetalhe": "Conta corrente",
+            "DataReferencia": "2013-01-01"
+        }
+    ]
+}  
