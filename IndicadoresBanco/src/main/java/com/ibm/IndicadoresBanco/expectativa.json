@@ -1,6 +1,3 @@
-{
-    "@odata.context": "https://was-p.bcnet.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata$metadata#ExpectativasMercadoInstituicoes(Instituicao,Indicador,IndicadorDetalhe,DataReferencia)",
-    "value": [
         {
             "Instituicao": 98,
             "Indicador": "Balança Comercial",
@@ -121,5 +118,3 @@
             "IndicadorDetalhe": "Conta corrente",
             "DataReferencia": "2013-01-01"
         }
-    ]
-}  

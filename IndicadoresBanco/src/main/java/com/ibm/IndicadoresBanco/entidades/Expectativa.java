@@ -1,21 +1,23 @@
 package com.ibm.IndicadoresBanco.entidades;
 
 import java.io.Serializable;
+import java.time.LocalDate;
 import java.util.Date;
+
 
 public class Expectativa implements Serializable{
 	private static final long serialVersionUID = 1L;
-	
+
 	private Integer instituicao;
 	private String indicador;
 	private String indicadorDetalhe;
-	private Date dataReferencia;
+	private LocalDate dataReferencia;
 	
 	public Expectativa() {
 		
 	}
 
-	public Expectativa(Integer instituicao, String indicador, String indicadorDetalhe, Date dataReferencia) {
+	public Expectativa(Integer instituicao, String indicador, String indicadorDetalhe, LocalDate dataReferencia) {
 		super();
 		this.instituicao = instituicao;
 		this.indicador = indicador;
@@ -47,11 +49,11 @@ public class Expectativa implements Serializable{
 		this.indicadorDetalhe = indicadorDetalhe;
 	}
 
-	public Date getDataReferencia() {
+	public LocalDate getDataReferencia() {
 		return dataReferencia;
 	}
 
-	public void setDataReferencia(Date dataReferencia) {
+	public void setDataReferencia(LocalDate dataReferencia) {
 		this.dataReferencia = dataReferencia;
 	}
 	
