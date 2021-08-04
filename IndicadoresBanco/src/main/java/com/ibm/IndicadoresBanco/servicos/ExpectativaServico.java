@@ -20,7 +20,7 @@ public class ExpectativaServico {
 	private List<Expectativa> expectativas;
 	
 	
-	public void criarListaViagens() {
+	public void criarListaExpectativas() {
 		if(expectativas == null) {
 			expectativas = new ArrayList<>();
 		}
@@ -64,12 +64,12 @@ public class ExpectativaServico {
 	}
 	
 	public void add(Expectativa expectativa) {
-		criarListaViagens();
+		criarListaExpectativas();
 		expectativas.add(expectativa);
 	}
 	
 	public List<Expectativa> find(){
-		criarListaViagens();
+		criarListaExpectativas();
 		return expectativas;
 	}
 	
