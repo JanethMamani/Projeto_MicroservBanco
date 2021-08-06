@@ -25,6 +25,7 @@ public class ExpectativaRecursos {
 		if(servicos.find().isEmpty()) {
 			return ResponseEntity.notFound().build();
 		}
+		
 		return ResponseEntity.ok(servicos.find());
 	}
 	

@@ -23,10 +23,11 @@ public class ExpectativaServico {
 	public void criarListaExpectativas() {
 		if(expectativas == null) {
 			expectativas = new ArrayList<>();
+			
 		}
 	}
 	
-	public boolean JsonValido(String JsonString) {
+	public static boolean JsonValido(String JsonString) {
 		try {
 			return new ObjectMapper().readTree(JsonString) != null;
 		} catch (IOException e) {
@@ -34,31 +35,31 @@ public class ExpectativaServico {
 		}
 	}
 	
-	private Integer passarInstituicao(JSONObject expectativa) {
+	public static Integer passarInstituicao(JSONObject expectativa) {
 		return Integer.valueOf((int) expectativa.getInt("Instituicao"));
 	}
 	
-	private String passarIndicador(JSONObject expectativa) {
+	public static String passarIndicador(JSONObject expectativa) {
 		return String.valueOf((String) expectativa.getString("Indicador"));
 	}
 	
-	private String passarDetalhe(JSONObject expectativa) {
+	public static String passarDetalhe(JSONObject expectativa) {
 		return String.valueOf((String) expectativa.getString("IndicadorDetalhe"));
 	}
 	
-	private LocalDate passarData(JSONObject expectativa) {
+	public static LocalDate passarData(JSONObject expectativa) {
 		var dataReferencia = (String) expectativa.get("DataReferencia");
 		return ZonedDateTime.parse(dataReferencia).toLocalDate();
 	}
 	
-	private void setValoresExpectativa(JSONObject expecJson, Expectativa expectativa) {
+	public static void setValoresExpectativa(JSONObject expecJson, Expectativa expectativa) {
 		expectativa.setInstituicao(expecJson.getInt("Instituicao") != 0 ? passarInstituicao(expecJson) : expectativa.getInstituicao());
 		expectativa.setIndicador(expecJson.getString("Indicador") != null ? passarIndicador(expecJson) : expectativa.getIndicador());
 		expectativa.setIndicadorDetalhe(expecJson.getString("IndicadorDetalhe") != null ? passarDetalhe(expecJson) : expectativa.getIndicadorDetalhe());
 		expectativa.setDataReferencia(expecJson.get("DataReferencia") != null ? passarData(expecJson) : expectativa.getDataReferencia());
 	}
 	
-	public Expectativa atualizar(Expectativa expectativa, JSONObject expecJson) {
+	public static Expectativa atualizar(Expectativa expectativa, JSONObject expecJson) {
 		setValoresExpectativa(expecJson,expectativa);
 		return expectativa;
 	}
@@ -70,12 +71,14 @@ public class ExpectativaServico {
 	
 	public List<Expectativa> find(){
 		criarListaExpectativas();
+		
 		return expectativas;
 	}
 	
 	public void deletar() {
 		expectativas.clear();
 	}
+
 	
 	
 
